@@ -1,0 +1,50 @@
+1,Mouse,Elektronik,75000,20
+2,Keyboard,Elektronik,150000,15
+3,Buku,Tulis,5000,100
+4,Pulpen,Tulis,3000,200
+5,Penghapus,Tulis,2000,150
+6,Pensil,Tulis,2500,300
+7,Spidol,Tulis,7000,120
+8,Lem Kertas,Alat Tulis,4000,80
+9,Mousepad,Elektronik,25000,50
+10,Flashdisk 16GB,Elektronik,60000,40
+11,Harddisk 1TB,Elektronik,750000,25
+12,SSD 512GB,Elektronik,1200000,15
+13,Monitor 24inch,Elektronik,1500000,10
+14,Laptop Stand,Aksesoris,100000,30
+15,Headset Gaming,Elektronik,350000,20
+16,Speaker Bluetooth,Elektronik,200000,35
+17,Powerbank 10000mAh,Elektronik,180000,40
+18,Kabel Data USB,Elektronik,25000,100
+19,Adaptor Charger,Elektronik,50000,60
+20,Jam Dinding,Perabot,75000,25
+21,Lampu Meja,Perabot,120000,20
+22,Kursi Kantor,Perabot,850000,10
+23,Meja Belajar,Perabot,1200000,8
+24,Rak Buku,Perabot,500000,12
+25,Topi Fashion,Fashion,75000,40
+26,Kaos Polos,Fashion,50000,100
+27,Jaket Hoodie,Fashion,150000,50
+28,Celana Jeans,Fashion,200000,30
+29,Sepatu Sneakers,Fashion,350000,25
+30,Tas Ransel,Fashion,250000,40
+31,Dompet Kulit,Fashion,180000,35
+32,Syal Musim Dingin,Fashion,90000,20
+33,Sandal Casual,Fashion,70000,50
+34,Kacamata Hitam,Fashion,120000,25
+35,Parfum 50ml,Kosmetik,250000,30
+36,Lipstik Matte,Kosmetik,120000,40
+37,Bedak Padat,Kosmetik,100000,35
+38,Masker Wajah,Kosmetik,30000,60
+39,Shampoo 250ml,Kosmetik,45000,50
+40,Body Lotion,Kosmetik,60000,40
+41,Hand Cream,Kosmetik,35000,70
+42,Face Wash,Kosmetik,55000,50
+43,Serum Vitamin C,Kosmetik,150000,25
+44,Micellar Water,Kosmetik,75000,30
+45,Bola Sepak,Olahraga,150000,20
+46,Raket Badminton,Olahraga,250000,15
+47,Sepeda Gunung,Olahraga,3500000,5
+48,Matras Yoga,Olahraga,200000,25
+49,Skipping Rope,Olahraga,50000,40
+50,Helm Sepeda,Olahraga,300000,10
