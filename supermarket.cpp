@@ -8,7 +8,7 @@
 #include <vector>
 using namespace std;
 
-// Bagian Admin
+// Bagian Admin (Ahmad Faeruz)
 struct Karyawan {
     string id;
     string nama;
@@ -16,7 +16,7 @@ struct Karyawan {
     string shift;
 };
 
-
+// Bagian Customer (Johan Hanggara)
 struct DataUtama {
     string nama;
     string email;
@@ -34,8 +34,7 @@ struct Katalog{
 	string jenisBarang;
 };
 
-
-
+// Kontribusi Ahmad
 class MenuAdmin {
 private:
     string namaAdmin;
@@ -140,7 +139,7 @@ public:
 };
 
 
-
+// Kontribusi : Hera Agung Nugroho
 void bersihkanInput(){
 
     cin.clear();
@@ -965,6 +964,7 @@ public:
 };
 
 
+// Kontribusi : Johan Hanggara Hasiholan
 
 class Customer {
 private:
