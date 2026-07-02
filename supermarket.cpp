@@ -39,7 +39,7 @@ class MenuAdmin {
 private:
     string namaAdmin;
     Karyawan daftarKaryawan[100]; 
-    int jumlahKaryawan = 0;       
+    int jumlahKaryawan = 0;//        
 
 public:
     MenuAdmin(string nama) {
@@ -1233,7 +1233,7 @@ public:
     }
     
     
-  void menuUtama(Customer &customer){  
+  void menuUtama(){  
   int pilih;
 
     do{
@@ -1250,11 +1250,11 @@ public:
         switch(pilih){
 
             case 1:
-                customer.registrasi();
+                registrasi();
                 break;
 
             case 2:
-                customer.Login();
+               Login();
                 break;
 
             case 3:
@@ -1271,7 +1271,11 @@ public:
 
 
 	// Menu Utama DAri 3 Hak Akses; Admin, Staff, Customer
-	void menuSistem(MenuAdmin &adminSistem, Customer &customer){
+	void menuSistem(
+		MenuAdmin &adminSistem, 
+		Customer &customer,
+		Staff &staff
+	){
 
     int pilih;
 
@@ -1283,7 +1287,8 @@ public:
 
         cout << "\n1. Menu Admin";
         cout << "\n2. Menu Customer";
-        cout << "\n3. Keluar";
+        cout << "\n3. Menu Staff";
+        cout << "\n4. Keluar";
 
         cout << "\n========================================";
         cout << "\nPilih Menu : ";
@@ -1297,18 +1302,21 @@ public:
                 break;
 
             case 2:
-                customer.menuUtama(customer);
+                customer.menuUtama();
                 break;
 
             case 3:
-                cout << "\nProgram selesai.\n";
+                staff.menuUtama();
                 break;
 
+			case 4:
+				cout << "\nProgram Selesai.\n";
+				break;
             default:
                 cout << "\nMenu tidak tersedia!\n";
         }
 
-    } while(pilih != 3);
+    } while(pilih != 4);
 }
 };
 
@@ -1317,9 +1325,15 @@ int main() {
 
     MenuAdmin adminSistem("Admin Pusat");
 
-    Customer customer;
+    Customer customer; // ? PINDAHKAN KE ATAS
 
-    customer.menuSistem(adminSistem, customer);
+    Staff staff;
+
+    customer.menuSistem(
+        adminSistem,
+        customer,
+        staff
+    );
 
     return 0;
 }
